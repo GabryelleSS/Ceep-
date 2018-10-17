@@ -1,0 +1,35 @@
+//procurar um elemento dentro do HTML por querySelector;
+const btn = document.querySelector('#btnMudaLayout');
+
+/*O JavaScript executa o que esta dentro dos parentes, ele nem espera ser chamado, por isso criamos uma funcao, 
+tome cuidado!!!
+function mudaTexto(){
+    console.log("clicou");
+}
+
+btn.onclick = mudaTexto;*/
+
+//Tbm podemos criar uma funcao dentro de uma "variavel"
+
+const mudaTexto = function(){
+    if (this.innerText == 'Blocos'){
+        this.innerText = 'Linhas';
+} else{
+    this.innerText = 'Linhas';
+}
+
+btn.onclick = mudaTexto;
+
+display flex = cria colunas
+
+quando tiver quantas duas possivilidades usar o if e else
+
+callback = . 
+chamo algo e me retorna;
+
+
+criar uma funcao fora do esclopo global.
+
+Funcao = IIFF = Immediately invoked function expression;
+
+querySelector sempre pega o primeiro e um;

@@ -1,0 +1,24 @@
+contenteditable = para reescrever algo em qualquer tag. ex p.
+
+tabindex = ultilizar o tabindex
+
+svg = criacao de imagens 
+
+vetor de imagens para nao perde a qualidade no zoom = svg, coreldraw (.cdr), illustrador(.ai)
+prefira usar svg pois a qualidade da imagem fica bem melhor, porem so no css5.
+
+boas praticar: usar o a tag symbol para agrupar os icones em svg
+
+          <button onclick="console.log(this)" class="opcoesDoCartao-remove opcoesDoCartao-opcao" tabindex="0">
+            <svg><use xlink:href="#iconeRemover"></use></svg>
+
+                      <button onclick="console.log(this.parentElement.)" class="opcoesDoCartao-remove opcoesDoCartao-opcao" tabindex="0">
+            <svg><use xlink:href="#iconeRemover"></use></svg>
+
+                                  <button onclick="console.log(this.parentElement.parentElement)" class="opcoesDoCartao-remove opcoesDoCartao-opcao" tabindex="0">
+            <svg><use xlink:href="#iconeRemover"></use></svg>
+
+Todas as tags para o javascript sao elementos, ele nao consegue remover o nosso html.
+
+interacoes no javascript sao chamados de evento e geralmete vem acompanhado do "on"
+

@@ -1,0 +1,10 @@
+os arquivos html leem linha por linha, e por isso busca cada atributo, se colocar la em cima ele nao vai conseguir 
+identificar os elementos, pq ainda nao leu todas as linhas, por isso os arquivos js devem ser colocados la em baixo!!! 
+Lembrar da aula!!!!
+
+Objetos no js:
+e uma representacao do mundo real, exemplo escola que tem varios atributos como:
+escola = nome, endereco, lista de cursos, professores...
+objeto sempre vai ter propriedades/atributos, caracteristicas, funcionalidades, metodos, acoes.
+quais sao os objetos do js? sao as tags, os elementos da tela de html
+
